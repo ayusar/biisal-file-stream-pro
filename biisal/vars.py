@@ -14,7 +14,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '20916942'))
     API_HASH = str(getenv('API_HASH', 'f016114b0ff593ef85429a1b967a138a'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '8207500733:AAFbHrjRKs3elIjuN1AkMV2poGdSKh8bKJk'))
-    name = str(getenv('name', 'File To Links Bot'))
+    name = str(getenv('name', 'SmartAutomations'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1003155647098'))
@@ -43,6 +43,7 @@ class Var(object):
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @SmartRobotSupportRobot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
+
 
 
 
