@@ -13,7 +13,7 @@ from biisal.bot import StreamBot
 from biisal.vars import Var
 from pyrogram import filters, Client
 from pyrogram.types import Message
-db = Database(Var.DATABASE_URL, Var.name)
+db = Database(Var.DATABASE_URL, "SmartAutomation")
 Broadcast_IDs = {}
 
 @StreamBot.on_message(filters.command("users") & filters.private )
@@ -89,3 +89,4 @@ async def broadcast_(c, m):
             quote=True
         )
     os.remove('broadcast.txt')
+
