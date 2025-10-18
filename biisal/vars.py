@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 bot_name = "File To Links Bot"
 bisal_channel = "https://t.me/SmarterRobots"
+bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+
 
 class Var(object):
     MULTI_CLIENT = False
@@ -43,6 +45,7 @@ class Var(object):
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @SmartRobotSupportRobot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
+
 
 
 
